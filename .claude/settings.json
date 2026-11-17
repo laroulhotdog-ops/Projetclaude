@@ -37,7 +37,8 @@
   },
   "enabledPlugins": {
     "ponytail@ponytail": true,
-    "agent-skills@addy-agent-skills": true
+    "agent-skills@addy-agent-skills": true,
+    "claude-mem@thedotmack": true
   },
   "extraKnownMarketplaces": {
     "ponytail": {
@@ -50,6 +51,12 @@
       "source": {
         "source": "github",
         "repo": "addyosmani/agent-skills"
+      }
+    },
+    "thedotmack": {
+      "source": {
+        "source": "github",
+        "repo": "thedotmack/claude-mem"
       }
     }
   }
